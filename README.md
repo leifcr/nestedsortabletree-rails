@@ -11,10 +11,10 @@ Instructions
 
     gem 'nestedsortabletree-rails'
 
-**2.  Run `bundle install`.
+**2. Run `bundle install`.**
 
 
-**3. Using **
+**3. Using**
 
 Add to your application.js:
 _JQuery_ and _JqueryUI_ is only needed if you haven't included them already
@@ -28,7 +28,7 @@ See http://leifcr.github.com/nestedSortableTree for usage.
 Credits
 -------
 
-[Didier Laffourgue](https://github.com/did) for the [aloha-rails plugin](https://github.com/locomotivecms/aloha-rails) as a blueprint. See his thank you notes in the readme on aloha-rails plugin...
+[Didier Laffourgue](https://github.com/did) for the [aloha-rails plugin](https://github.com/locomotivecms/aloha-rails) as a blueprint. See further credits in the readme on aloha-rails plugin.
 
 Contact
 -------
