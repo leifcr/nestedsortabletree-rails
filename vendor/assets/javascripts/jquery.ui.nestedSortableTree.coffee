@@ -1,19 +1,19 @@
 ###
-# Nested Tree based with data and rational number support
-# based on jQuery sortable
-# Written in CoffeeScript, as the syntax is nice.
-#
-# For debugging/ development it requires log4javascript
-# 
-# Derived from Manuele J Sarfattis work (https://github.com/mjsarfatti)
-#
-# Still under MIT license.
-#
-# Source can be found here:
-#
-# https://github.com/leifcr/nestedSortableTree
-#
-# Current version : v0.1.1
+  Nested Tree based with data and rational number support
+  based on jQuery sortable
+  Written in CoffeeScript, as the syntax is nice.
+
+  For debugging/ development it requires log4javascript
+
+  Derived from Manuele J Sarfattis work (https://github.com/mjsarfatti)
+
+  Still under MIT license.
+
+  Source can be found here:
+
+  https://github.com/leifcr/nestedSortableTree
+
+  Current version : v0.1.2
 ###
 
 # Reference jQuery
@@ -25,7 +25,7 @@ $.widget "ui.nestedSortableTree", $.ui.sortable,
     errorClass: "tree-error"
     listType: "ol"
     maxLevels: 0
-    nested_debug: true
+    nested_debug: false
     tabSize: 20
     rtl: false
     use_rational_numbers: true

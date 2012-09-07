@@ -1,10 +1,11 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path('../lib', __FILE__)
-require 'nested_sortable_tree/rails/version'
+require 'nestedsortabletree/rails/version'
 
 Gem::Specification.new do |s|
   s.name        = 'nestedsortabletree-rails'
-  s.version     = NestedSortableTree::Rails::VERSION
+  s.version     = Nestedsortabletree::Rails::VERSION
+  s.platform    = Gem::Platform::RUBY
   s.summary     = 'Rails 3.2 integration for Jquery UI Nested Sortable Tree plugin.'
   s.description = 'Integrates jquery UI Nested Sortable Tree plugin into rails apps.'
   s.homepage    = 'https://github.com/leifcr/nestedsortabletree-rails'
@@ -17,4 +18,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'coffee-rails',  '~> 3.2.2'
 
   s.add_development_dependency 'rake', '0.9.2'
+  s.require_paths = ["lib"]
 end

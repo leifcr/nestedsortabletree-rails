@@ -1,1 +1,0 @@
-require 'nested_sortable_tree/rails'
