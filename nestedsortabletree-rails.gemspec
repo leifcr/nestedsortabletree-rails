@@ -12,8 +12,9 @@ Gem::Specification.new do |s|
   s.authors     = ['Leif Ringstad']
   s.email       = 'leifcr@gmail.com'
 
-  s.add_dependency 'actionpack',  '~> 3.2.8'
+  s.add_dependency 'actionpack',    '~> 3.2.8'
   s.add_dependency 'jquery-rails',  '~> 2.1.1'
+  s.add_dependency 'coffee-rails',  '~> 3.2.2'
 
   s.add_development_dependency 'rake', '0.9.2'
 end
