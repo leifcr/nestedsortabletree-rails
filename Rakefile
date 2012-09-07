@@ -3,7 +3,7 @@ require 'rake'
 require 'rubygems/package_task'
 
 $:.push File.expand_path('../lib', __FILE__)
-require 'nested_sortable_tree/rails/version'
+require 'nestedsortabletree/rails/version'
 
 gemspec = eval(File.read('nestedsortabletree-rails.gemspec'))
 Gem::PackageTask.new(gemspec) do |pkg|
