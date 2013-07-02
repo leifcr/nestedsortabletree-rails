@@ -1,7 +1,7 @@
-Rails 3.2 Integration for Jquery UI NestedSortableTree Plugin
-=============================================================
+Rails 3.2/4.0 Integration for Jquery UI NestedSortableTree Plugin
+=================================================================
 
-The `nestedsortabletree-rails` gem integrates the [Jquery UI Nested Sortable Tree](http://leifcr.github.com/nestedSortableTree) plugin with the Rails 3.2 asset pipeline.
+The `nestedsortabletree-rails` gem integrates the [Jquery UI Nested Sortable Tree](http://leifcr.github.com/nestedSortableTree) plugin with the Rails 3.2 and 4.0 asset pipeline.
 
 
 Instructions
@@ -20,8 +20,12 @@ Add to your application.js:
 _JQuery_ and _JqueryUI_ is only needed if you haven't included them already
 
     //= require jquery 
-    //= require jquery_ui
+    //= require jquery.ui.all
     //= require jquery.ui.nestedSortableTree
+
+I recommend using [jquery-rails](https://github.com/indirect/jquery-rails) and [jquery-ui-rails](https://github.com/joliss/jquery-ui-rails)
+
+Other jquery implementations should do fine as well.
 
 See http://leifcr.github.com/nestedSortableTree for usage.
 
@@ -35,4 +39,4 @@ Contact
 
 Feel free to contact me at @leifcr (twitter).
 
-Copyright (c) 2012 Leif Ringstad
+Copyright (c) 2012-2013 Leif Ringstad
