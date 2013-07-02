@@ -12,5 +12,5 @@ end
 
 desc 'build the gem and release it to rubygems.org'
 task :release => :gem do
-  sh "gem push pkg/nestedsortabletree-rails-#{NestedSortableTree::Rails::VERSION}.gem"
+  sh "gem push pkg/nestedsortabletree-rails-#{Nestedsortabletree::Rails::VERSION}.gem"
 end
